@@ -1,7 +1,10 @@
 {
-  "name": "wave-app",
+  "homepage": "http://yogesh-06.github.io/web3.0",
+  "name": "cryptotred-app",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -25,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.4"
   }
